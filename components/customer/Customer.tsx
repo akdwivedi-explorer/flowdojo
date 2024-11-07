@@ -25,19 +25,22 @@ const Customer = () => {
             avatar: "/customer/Avatars Base.png",
             name: "Charolette Hanlin",
             role: "Co-Founder, Heroes Digital",
-            review: "Ganttify has revolutionized the way we manage our projects. Connecting tasks and workflows to our overall company goals has never been easier.",
+            review:
+              "Ganttify has revolutionized the way we manage our projects. Connecting tasks and workflows to our overall company goals has never been easier.",
           },
           {
             avatar: "/customer/Avatars Base (1).png",
             name: "Eleanor Pena",
             role: "Co-Founder, Heroes Digital",
-            review: "Using Ganttify has streamlined our project management process. It’s incredibly effective in aligning our daily tasks with the company's strategic goals.",
+            review:
+              "Using Ganttify has streamlined our project management process. It’s incredibly effective in aligning our daily tasks with the company's strategic goals.",
           },
           {
             avatar: "/customer/Avatars Base (2).png",
             name: "Guy Hawkins",
             role: "Co-Founder, Heroes Digital",
-            review: "Ganttify has provided us with a unified view of our projects. It connects our workflows directly to our business goals, making it easier to track progress.",
+            review:
+              "Ganttify has provided us with a unified view of our projects. It connects our workflows directly to our business goals, making it easier to track progress.",
           },
         ].map((customer, index) => (
           <div key={index} className="border rounded-2xl border-[#DFE1E7] p-6">
@@ -50,7 +53,7 @@ const Customer = () => {
               <span className="text-sm font-medium">4.8</span>
             </div>
             <p className="pt-4 text-base font-medium text-[#0D0D12]">
-              “{customer.review}”.
+              {`“${customer.review}”`}
             </p>
             <div className="flex items-center gap-3 pt-6">
               <Image
