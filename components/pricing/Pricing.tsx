@@ -12,24 +12,25 @@ const Pricing = () => {
   return (
     <div
       style={{
+        width: "1342px",
+        minHeight: "600px",
         backgroundImage: "url('/hero/hero.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="w-full min-h-screen px-4 pt-12 pb-12 md:w-[1342px] md:min-h-[600px]"
     >
-      <section className="pt-6">
-        <div className="flex items-center gap-2 bg-opacity-10 bg-white border border-white border-opacity-10 rounded-lg h-7 px-2 text-white">
+      <section className="pt-20 pl-12 pr-12">
+        <div className="text-white flex items-center gap-2 border-[1px] w-24 bg-opacity-10 bg-white border-white border-opacity-10 rounded-lg h-7 pt-2 pr-[10px] pb-2 pl-2">
           <FiCreditCard />
           <span>Pricing</span>
         </div>
-        <div className="pt-6">
-          <h1 className="text-3xl font-semibold text-white leading-tight md:text-[56px]">
+        <div className="flex justify-between items-center pt-6">
+          <h1 className="text-[56px] font-semibold text-white leading-none w-[563px] h-[140px]">
             Simple and Flexible Pricing
           </h1>
-          <div className="flex items-center gap-4 pt-4 text-white font-medium">
+          <div className="flex items-center gap-4 text-white font-medium">
             <button
-              className={`p-2 w-[100px] rounded-lg ${
+              className={`p-2 w-[121px] rounded-lg ${
                 selectedFrequency === "Monthly"
                   ? "bg-white text-[#0D0D12]"
                   : "bg-white bg-opacity-10 text-white"
@@ -39,7 +40,7 @@ const Pricing = () => {
               Monthly
             </button>
             <button
-              className={`p-2 w-[100px] rounded-lg ${
+              className={`p-2 w-[121px] rounded-lg ${
                 selectedFrequency === "Annually"
                   ? "bg-white text-[#0D0D12]"
                   : "bg-white bg-opacity-10 text-white"
@@ -52,7 +53,7 @@ const Pricing = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-8 pt-8 md:grid-cols-3 md:p-12">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 p-12">
         {priceDetails.map((plan, index) => (
           <div
             key={index}

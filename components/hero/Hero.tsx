@@ -6,95 +6,107 @@ const Hero = () => {
   return (
     <div
       style={{
+        width: "1342px",
+        height: "600px",
         backgroundImage: "url('/hero/hero.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="w-full h-auto md:h-[600px] p-6 md:w-[1342px] flex flex-col items-center md:items-stretch"
     >
-      <div className="text-white flex flex-col items-center md:items-start md:px-12 md:flex-row justify-between">
-        <aside className="pt-10 flex flex-col items-center md:items-start">
-          {/* Title Section */}
-          <div className="flex items-center gap-2 w-[160px] h-[32px] pt-2 px-3 rounded-[10px] bg-zinc-800">
+      <div className="text-white pl-12 pr-12 flex justify-between">
+        <aside className="pt-10">
+          <div className="flex items-center gap-2 w-[196px] h-[32px] pt-2 pr-3 pl-2 pb-2 rounded-[10px] bg-zinc-800 border-none">
             <TfiTarget />
-            <p className="text-xs md:text-sm">Goals and Reporting</p>
+            <p className="text-sm">Goal and Reporting</p>
           </div>
-          <h1 className="pt-6 font-semibold text-[32px] md:text-[64px] text-center md:text-left w-full md:w-[588px] leading-tight">
-            Goals and Reporting In One Place
+          <h1 className="pt-6 font-semibold text-[64px] w-[588px] leading-none">
+            Goal and Reporting In One Place
           </h1>
-          <p className="pt-4 md:pt-6 opacity-60 text-center md:text-left w-full md:w-[508px] text-sm md:text-base">
-            Connect every team’s work to company objectives, then track progress with real-time data
+          <p className="pt-6 opacity-60 w-[508px] ">
+            Connect every team’s work to company objectives, then track progress
+            with real-time data
           </p>
-
-          {/* Buttons */}
-          <div className="flex gap-4 pt-6 md:pt-10">
-            <button className="px-4 py-2 md:py-3 rounded-xl bg-white text-black font-semibold text-sm md:text-base">
+          <div className="flex gap-7 pt-10">
+            <button className="pt-3 pb-3 pl-5 pr-5 rounded-xl bg-white text-black font-semibold text-[16px]">
               Get Started
             </button>
-            <button className="px-4 py-2 md:py-3 rounded-xl bg-opacity-10 bg-white text-white font-semibold text-sm md:text-base">
+            <button className="pt-3 pb-3 pl-5 pr-5 rounded-xl bg-opacity-10 bg-white text-white font-semibold">
               How it Works
             </button>
           </div>
-
-          {/* Trusted By Section */}
-          <p className="opacity-50 pt-8 text-sm md:text-base">Trusted by 2 million+ teams</p>
-          <div className="flex space-x-4 pt-4 md:pt-6">
-            <Image src="/hero/Company logo.png" alt="mailchimp" width={70} height={70} />
-            <Image src="/hero/Company logo (1).png" alt="medium" width={70} height={70} />
-            <Image src="/hero/Company logo (2).png" alt="microsoft" width={70} height={70} />
-            <Image src="/hero/Company logo (3).png" alt="apple" width={70} height={70} />
+          <p className="opacity-50 pt-[72px]">Trusted by 2 million+ teams</p>
+          <div className="flex justify-between pt-6">
+            <Image src="/hero/Company logo.png" alt="mailchip" width={100} height={100} />
+            <Image src="/hero/Company logo (1).png" alt="mailchip" width={100} height={100} />
+            <Image src="/hero/Company logo (2).png" alt="mailchip" width={100} height={100} />
+            <Image src="/hero/Company logo (3).png" alt="mailchip" width={100} height={100} />
           </div>
         </aside>
 
-        {/* Image Section */}
-        <aside className="pt-10 md:pt-0 flex flex-col items-center md:items-start">
-          {/* Top Icon */}
-          <div className="flex justify-center md:justify-start pb-6 md:pb-12">
+        <aside className="relative pt-10">
+          <div className="flex justify-evenly pr-[210px] pb-12">
             <Image
               src="/hero/icon.png"
               alt="Icon image"
-              width={40}
-              height={40}
-              className="relative"
-            />
-          </div>
-
-          {/* Main Images */}
-          <div className="flex gap-2 md:gap-10 items-center md:items-end">
-            <Image
-              src="/hero/Frame 33846.png"
-              alt="Image 1"
               width={100}
-              height={124}
-            />
-            <Image
-              src="/hero/Frame 33845.png"
-              alt="Image 2"
-              width={150}
-              height={154}
+              height={100}
+              className="absolute"
             />
           </div>
 
-          {/* Bottom Icons */}
-          <div className="flex gap-2 md:gap-4 pt-6 md:pt-10">
-            <Image
-              src="/hero/icon (1).png"
-              alt="Icon 1"
-              width={50}
-              height={50}
-            />
-            <Image
-              src="/hero/Frame 33847.png"
-              alt="Image 3"
-              width={200}
-              height={80}
-            />
-            <Image
-              src="/hero/icon (2).png"
-              alt="Icon 2"
-              width={50}
-              height={50}
-            />
+          <div
+            className="flex gap-10
+           items-end"
+          >
+            <aside>
+              <Image
+                src="/hero/Frame 33846.png"
+                alt="Iamhe"
+                width={175}
+                height={217}
+                className=""
+              />
+            </aside>
+
+            <aside>
+              <Image
+                src="/hero/Frame 33845.png"
+                alt="image"
+                width={266}
+                height={274}
+              />
+            </aside>
+          </div>
+
+          <div className="flex gap-4 pt-10">
+            <div>
+              <Image
+                src="/hero/icon (1).png"
+                alt="ocon"
+                width={100}
+                height={100}
+              />
+            </div>
+
+            <div>
+              <Image
+                src="/hero/Frame 33847.png"
+                alt="image"
+                width={350}
+                height={140}
+                className=""
+              />
+            </div>
+
+            <div>
+              <Image
+                src="/hero/icon (2).png"
+                alt="ocon"
+                width={100}
+                height={100}
+                className="pt-24 pl-2"
+              />
+            </div>
           </div>
         </aside>
       </div>
