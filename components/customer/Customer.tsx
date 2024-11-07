@@ -15,7 +15,7 @@ const Customer = () => {
           See What Our Customers Are Saying
         </h1>
         <p className="pt-4 text-center text-[#666D80] font-normal text-base md:text-lg">
-          Here's what some of our customers say about our platform.
+          Here&apos;s what some of our customers say about our platform.
         </p>
       </section>
 
@@ -33,7 +33,7 @@ const Customer = () => {
             name: "Eleanor Pena",
             role: "Co-Founder, Heroes Digital",
             review:
-              "Using Ganttify has streamlined our project management process. It’s incredibly effective in aligning our daily tasks with the company's strategic goals.",
+              "Using Ganttify has streamlined our project management process. It&rsquo;s incredibly effective in aligning our daily tasks with the company&rsquo;s strategic goals.",
           },
           {
             avatar: "/customer/Avatars Base (2).png",
