@@ -15,7 +15,7 @@ const Customer = () => {
           See What Our Customers Are Saying
         </h1>
         <p className="pt-6 text-[#666D80] font-normal text-lg">
-          Here's what some of our customers say about our platform.
+          Here&apos;s what some of our customers say about our platform.
         </p>
       </section>
 
