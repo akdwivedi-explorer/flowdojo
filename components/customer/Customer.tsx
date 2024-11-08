@@ -32,7 +32,7 @@ const Customer = () => {
           <p className="text-lg font-medium">
             “Ganttify has revolutionized the way we manage our projects.
             Connecting tasks and workflows to our overall company goals has
-            never been easier.”.
+            never been easier.”
           </p>
           <div className="flex items-center gap-3 pt-6">
             <Image
@@ -42,7 +42,7 @@ const Customer = () => {
               height={44}
             />
             <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
+              <h3 className="font-semibold text-base text-[#0D0D12]">
                 Charolette Hanlin
               </h3>
               <p className="font-normal text-sm text-[#666D80]">
@@ -74,132 +74,8 @@ const Customer = () => {
               height={44}
             />
             <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
+              <h3 className="font-semibold text-base text-[#0D0D12]">
                 Eleanor Pena
-              </h3>
-              <p className="font-normal text-sm text-[#666D80]">
-                Co-Founder, Heroes Digital
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="border rounded-[20px] border-[#DFE1E7] p-6">
-          <p>
-            <div className="flex gap-2 items-center">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar /> 4.8
-            </div>
-          </p>
-          <p className="text-lg font-medium">
-            “Ganttify has provided us with a unified view of our projects. It
-            connects our workflows directly to our business goals, making it
-            easier to track progress.”.
-          </p>
-          <div className="flex items-center gap-3 pt-6">
-            <Image
-              src="/customer/Avatars Base (2).png"
-              alt="Avatar"
-              width={44}
-              height={44}
-            />
-            <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
-                Guy Hawkins
-              </h3>
-              <p className="font-normal text-sm text-[#666D80]">
-                Co-Founder, Heroes Digital
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="border rounded-[20px] border-[#DFE1E7] p-6">
-          <p>
-            <div className="flex gap-2 items-center">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar /> 4.8
-            </div>
-          </p>
-          <p className="text-lg font-medium">
-            “Ganttify has provided us with a unified view of our projects. It
-            connects our workflows directly to our business goals, making it
-            easier to track progress.”.
-          </p>
-          <div className="flex items-center gap-3 pt-6">
-            <Image
-              src="/customer/Avatars Base (2).png"
-              alt="Avatar"
-              width={44}
-              height={44}
-            />
-            <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
-                Guy Hawkins
-              </h3>
-              <p className="font-normal text-sm text-[#666D80]">
-                Co-Founder, Heroes Digital
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="border rounded-[20px] border-[#DFE1E7] p-6">
-          <p>
-            <div className="flex gap-2 items-center">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar /> 4.8
-            </div>
-          </p>
-          <p className="text-lg font-medium">
-            “Ganttify has revolutionized the way we manage our projects.
-            Connecting tasks and workflows to our overall company goals has
-            never been easier.”.
-          </p>
-          <div className="flex items-center gap-3 pt-6">
-            <Image
-              src="/customer/Avatars Base.png"
-              alt="Avatar"
-              width={44}
-              height={44}
-            />
-            <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
-                Charolette Hanlin
-              </h3>
-              <p className="font-normal text-sm text-[#666D80]">
-                Co-Founder, Heroes Digital
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="border rounded-[20px] border-[#DFE1E7] p-6">
-          <p>
-            <div className="flex gap-2 items-center">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar /> 4.8
-            </div>
-          </p>
-          <p className="text-lg font-medium">
-            “Ganttify has provided us with a unified view of our projects. It
-            connects our workflows directly to our business goals, making it
-            easier to track progress.”.
-          </p>
-          <div className="flex items-center gap-3 pt-6">
-            <Image
-              src="/customer/Avatars Base (2).png"
-              alt="Avatar"
-              width={44}
-              height={44}
-            />
-            <div>
-              <h3 className="font-semibold text-base text-[#0D0D12] ">
-                Guy Hawkins
               </h3>
               <p className="font-normal text-sm text-[#666D80]">
                 Co-Founder, Heroes Digital
