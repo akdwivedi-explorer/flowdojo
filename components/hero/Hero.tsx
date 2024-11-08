@@ -23,7 +23,7 @@ const Hero = () => {
             Goal and Reporting In One Place
           </h1>
           <p className="pt-6 opacity-60 w-[508px] ">
-            Connect every team’s work to company objectives, then track progress
+            Connect every team&apos;s work to company objectives, then track progress
             with real-time data
           </p>
           <div className="flex gap-7 pt-10">
@@ -64,7 +64,6 @@ const Hero = () => {
                 alt="Iamhe"
                 width={175}
                 height={217}
-                className=""
               />
             </aside>
 

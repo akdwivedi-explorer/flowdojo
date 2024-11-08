@@ -14,7 +14,7 @@ const Features = () => {
           Everything Your Team Looking For
         </h1>
         <p className="text-lg font-normal text-[#666D80] pt-4">
-          Ganttify’s exceptional flexibility can handle any type of work. And we
+          Ganttify&apos;s exceptional flexibility can handle any type of work.And we
           never stop innovating
         </p>
       </div>
@@ -29,7 +29,7 @@ const Features = () => {
           <h2 className="text-2xl font-semibold text-[#0D0D12] pt-3">Project Management</h2>
           <p className="text-lg font-normal text-[#666D80] pt-3">
             Manage your projects from start to finish. With all of your projects
-            in Ganttify, you’ll always know who’s doing what, by when
+            in Ganttify, you&apos;ll always know who&apos;s doing what, by when
           </p>
         </aside>
         <aside>
