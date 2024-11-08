@@ -62,9 +62,9 @@ const Customer = () => {
             </div>
           </p>
           <p className="text-lg font-medium">
-            “Using Ganttify has streamlined our project management process. It’s
-            incredibly effective in aligning our daily tasks with the company's
-            strategic goals.”.
+            “Using Ganttify has streamlined our project management process.
+            It&apos;s incredibly effective in aligning our daily tasks with the
+            company&apos;s strategic goals.”
           </p>
           <div className="flex items-center gap-3 pt-6">
             <Image
